@@ -1,7 +1,7 @@
 import { useGlobalState } from '../store/global-state-provider';
 
-const About = () => {
-  const { state, dispatch } = useGlobalState();
+export const About = () => {
+  const { dispatch } = useGlobalState();
 
   return <>
     <h2>About Page</h2>

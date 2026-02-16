@@ -1,4 +1,4 @@
 export * from './Layout';
-export { default as Home } from './Home';
-export { default as About } from './About';
-export { default as NotFound } from './NotFound';
+export {  Home } from './Home';
+export { About } from './About';
+export { NotFound } from './NotFound';

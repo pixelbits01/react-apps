@@ -1,6 +1,6 @@
 import { useGlobalState } from '../store/global-state-provider';
 
-const Home = () => {
+export const Home = () => {
     const { dispatch } = useGlobalState();
     return <>
         <h2>Home Page</h2>
@@ -12,4 +12,3 @@ const Home = () => {
         })}>Decrement</button>
     </>;
 };
-export default Home;
